@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    <div class="header">
+    <p>Let's Play Dice</p>
+    <h1 id="message">Player-1 to Play </h1>
+    <!-- <h1 id="message">Player-2 to Play </h1> -->
+    
+    </div>
+    <div class="section">
+    <div class="leftplayer">
+        <h3 id="firstplay"  ><b>Player-1</h3></b>
+        <b><span class="score" id="value1">0</span><br><br><br><br></b>
+        <button id="firstbtn" onclick="rollthedice1()">Roll Now</button>
+    </div>
+    <img id="img1" />
+    
+    <div class="rigthplayer">
+        <h3 id="secondplay"><b>Player-2</b></h3>
+        <b><span class="score" id="value2">0</span><br><br><br><br></b>
+        <button id="secondbtn" onclick="rollthedice2()">Roll Now</button>
+    </div>
+</div>
+
+<div class="resetting">
+<button class="setting"  onClick="window.location.reload();">Reset</button>
+</div>
+<div class="imgvalue">
+<p><img id="imgresult"  src="./image/dice img 1.png" value="1"/> </p>
+<p><img  id="imgresult" src="./image/dice img 2.png" value="2"/> </p>
+<p><img id="imgresult" src="./image/dice img 3.png" value="3"/> </p>
+<p><img id="imgresult" src="./image/dice img 4.png" value="4"/> </p>
+<p><img  id="imgresult" src="./image/dice img 5.png" value="5"/> </p>
+<p><img  id="imgresult" src="./image/dice img 6.png" value="6"/> </p>
+</div>
+ 
